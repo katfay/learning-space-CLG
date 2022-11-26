@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: #d221a2;
   font-size: 7rem;
   padding: 0 1rem;
   margin-block-start: 0;
@@ -34,7 +34,7 @@ h3 {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  align-items: ;
+  align-items: center;
 }
 
 #site-heading-container {
@@ -43,7 +43,7 @@ h3 {
   align-items: center;
   padding: 1rem;
   margin: 2rem;
-  background-image: url(/images/duncan2.jpg);
+  background-image: url(/images/duncan.jpg);
   /*background-color: #30343f;*/
   border-radius: 15px;
   background-size: 15rem;
