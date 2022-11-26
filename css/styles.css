@@ -1,7 +1,51 @@
+.layout {
+  border: 1px red solid;
+}
+
 body {
   font-family: "Staatliches", cursive;
+  background-color: #fafaff;
 }
 
 h1 {
-  color: cornflowerblue;
+  color: #ffffff;
+  font-size: 7rem;
+  padding: 0 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3 {
+  color: #d221a2;
+}
+
+.site-logo {
+  height: 100px;
+}
+
+#main-container {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#sidebar {
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: ;
+}
+
+#site-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  background-image: url(/images/duncan2.jpg);
+  /*background-color: #30343f;*/
+  border-radius: 15px;
+  background-size: 15rem;
+  height: 10rem;
 }
