@@ -3,15 +3,16 @@
   border: solid 1px silver;
 }
 
+li {
+  list-style: none;
+}
+
 #main-container {
   display: flex;
 }
 
-/* Add some padding on document's body to prevent the content
-    to go underneath the header and footer */
-
 #site-menu {
-  display: flex;
+  display: flex-wrap;
 }
 
 body {
