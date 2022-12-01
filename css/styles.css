@@ -3,21 +3,44 @@
   border: solid 1px silver;
 }
 
-li {
-  list-style: none;
+#site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+
+.site-heading {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 #main-container {
+  padding-top: 6rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#site-menu {
-  display: flex-wrap;
+.img-container {
+  position: fixed;
+  top: 9rem;
+  background-color: #fff;
+  width: 100%;
+}
+
+#mascot {
+  height: 15rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   margin: 0px;
 }
 
@@ -31,28 +54,29 @@ body {
 .fixed-footer {
   width: 100%;
   position: fixed;
-  padding: 10px 0 0;
   background: #333;
   color: #fff;
 }
 
 .fixed-header {
   top: 0;
+  padding: 1rem 0 0;
 }
 
 .fixed-footer {
   bottom: 0;
+  padding: 1rem 0;
 }
 
 /* Some more styles to beutify this example */
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 7px 25px;
-  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.5rem;
 }
 
 .container p {
   /* Create scrollbar to test positioning */
-  line-height: 200px;
+  line-height: 20rem;
 }
