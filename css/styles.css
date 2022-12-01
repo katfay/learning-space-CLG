@@ -17,7 +17,7 @@
 }
 
 #main-container {
-  padding-top: 6rem;
+  padding-top: 19rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,11 +31,18 @@
 }
 
 #mascot {
-  height: 15rem;
+  height: 13rem;
   display: block;
   margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+article {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 body {
@@ -45,7 +52,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 95%;
   /* Center the DIV horizontally */
   margin: 0 auto;
 }
@@ -77,6 +84,5 @@ nav a {
 }
 
 .container p {
-  /* Create scrollbar to test positioning */
-  line-height: 20rem;
+  line-height: 2rem;
 }
