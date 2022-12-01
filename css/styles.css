@@ -10,9 +10,9 @@
 /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
 
-/* Placeholder id for styling later
 #site-menu {
-} */
+  display: flex;
+}
 
 body {
   padding-top: 60px;
@@ -28,7 +28,6 @@ body {
 
 .fixed-header,
 .fixed-footer {
-  display: flex;
   width: 100%;
   position: fixed;
   padding: 10px 0 0;
