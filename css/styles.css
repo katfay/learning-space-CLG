@@ -14,6 +14,10 @@
 
 /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
+
+#site-menu {
+}
+
 body {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -30,8 +34,8 @@ body {
 .fixed-footer {
   width: 100%;
   position: fixed;
+  padding: 10px 0 0;
   background: #333;
-  padding: 10px 0;
   color: #fff;
 }
 
