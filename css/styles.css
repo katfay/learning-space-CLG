@@ -1,3 +1,13 @@
+/*Placeholder 
+#sidebar {
+}
+*/
+
+/* Borders in greylead to help whne planning the container spacing and page layout */
+.draft-lines {
+  border: solid 1px silver;
+}
+
 /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
 body {
