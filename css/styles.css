@@ -8,6 +8,10 @@
   border: solid 1px silver;
 }
 
+#main-container {
+  display: flex;
+}
+
 /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
 body {
