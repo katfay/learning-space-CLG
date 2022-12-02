@@ -45,7 +45,7 @@ article {
   justify-content: center;
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 1024px) {
   .img-container {
     position: fixed;
     top: 1rem;
