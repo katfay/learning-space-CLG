@@ -45,6 +45,36 @@ article {
   justify-content: center;
 }
 
+@media (orientation: landscape) {
+  .img-container {
+    position: fixed;
+    top: 1rem;
+    right: 3rem;
+    width: 15%;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  #mascot {
+    height: 5rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 25%;
+  }
+  #site-menu {
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+
+  #main-container {
+    padding-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 body {
   padding-top: 4rem;
   padding-bottom: 3rem;
