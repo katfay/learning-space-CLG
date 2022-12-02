@@ -49,10 +49,12 @@ article {
   width: 95%;
   text-align: center;
   margin: 4rem 0 5rem 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 .newsletter {
   text-align: center;
+  font-family: "Work Sans", sans-serif;
 }
 
 h2,
@@ -66,7 +68,7 @@ h1 {
   font-size: 6rem;
   margin: 0 1rem;
   padding: 0;
-  background: #333;
+  background: #65655e;
 }
 
 h2 {
@@ -87,6 +89,12 @@ button {
   border-radius: 20px;
   margin: 0 1rem;
   padding: 1rem;
+  background-color: #b0a3d4;
+  color: #fff;
+}
+
+article {
+  text-align: center;
 }
 
 body {
@@ -94,6 +102,8 @@ body {
   padding-bottom: 3rem;
   margin: 0px;
   font-family: "Merriweather", serif;
+  background-color: #7d80da;
+  color: #fff;
 }
 
 .container {
@@ -106,13 +116,20 @@ body {
 .fixed-footer {
   width: 100%;
   position: fixed;
-  background: #333;
+  background: #65655e;
   color: #fff;
 }
 
 .fixed-header {
   top: 0;
   padding: 1rem 0;
+}
+
+button,
+input {
+  border-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
 }
 
 .fixed-footer {
@@ -124,8 +141,10 @@ body {
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   margin: 1rem 0.5rem;
+  background-color: #b0a3d4;
+  border-radius: 20px;
 }
 
 .container p {
